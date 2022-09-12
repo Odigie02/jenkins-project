@@ -4,6 +4,7 @@ pipeline{
         stage("Build"){
             steps{
                 echo "========executing Build========"
+                echo "++++TEST++++++"
             }
         }
     }
